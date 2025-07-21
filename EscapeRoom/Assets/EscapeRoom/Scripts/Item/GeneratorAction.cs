@@ -11,7 +11,7 @@ public class GeneratorAction : Interactable
         {
             GameManager.Instance.UseBattery();
             Battery.SetActive(true);
-            Debug.Log("Batería colocada en el generador.");
+            MessageDisplay.Instance.ShowMessage("Batería colocada en el generador.");
         }
     }
 }

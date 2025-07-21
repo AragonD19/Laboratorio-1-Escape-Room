@@ -25,13 +25,13 @@ public class ButtonSequenceController : MonoBehaviour
 
         if (IsSequenceCorrect())
         {
-            Debug.Log("¡Secuencia correcta!");
+            MessageDisplay.Instance.ShowMessage("¡Secuencia correcta!");
             objectToActivate.SetActive(false);
             SetFeedbackColor(colorSuccess);
         }
         else
         {
-            Debug.Log("Secuencia incorrecta. Reiniciando...");
+            MessageDisplay.Instance.ShowMessage("Secuencia incorrecta.");
             SetFeedbackColor(colorFailure);
         }
 

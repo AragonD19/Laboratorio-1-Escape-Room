@@ -378,7 +378,7 @@ MonoBehaviour:
     m_Bits: 72
   onTime: 4
   offTime: 1
-  damage: 50
+  damage: 100
 --- !u!64 &2923452497123235334
 MeshCollider:
   m_ObjectHideFlags: 0

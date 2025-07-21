@@ -15,7 +15,7 @@ public class LeverAction : Interactable
 
         if (generator == null || !generator.HasBattery())
         {
-            Debug.Log("Esta palanca no tiene energía.");
+            MessageDisplay.Instance.ShowMessage("Esta palanca no tiene energía.");
             return;
         }
 
@@ -24,7 +24,7 @@ public class LeverAction : Interactable
             door.SetActive(false);
             laverUP.SetActive(false);
             laverDOWN.SetActive(true);
-            Debug.Log("Palanca accionada: " + door.name + " desactivado.");
+            MessageDisplay.Instance.ShowMessage("Palanca accionada: " + door.name + " desactivado.");
         }
 
         isUsed = true;
