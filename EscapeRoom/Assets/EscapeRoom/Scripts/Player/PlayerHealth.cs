@@ -5,6 +5,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("Player stats")]
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private float damageCooldown = 1f;
+    [SerializeField] private AudioSource myAudioSource;
 
 
     [Header("Extras")]
@@ -16,10 +17,16 @@ public class PlayerHealth : MonoBehaviour
     private CharacterController controller;
 
 
+
     private void Start()
     {
         currentHealth = maxHealth;
         controller = GetComponent<CharacterController>();
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.SetPlayerAudioSource(myAudioSource);
+        }
     }
 
 
