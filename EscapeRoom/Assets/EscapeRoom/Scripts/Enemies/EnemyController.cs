@@ -109,6 +109,17 @@ public class EnemyController : MonoBehaviour
             case State.Idle: HandleIdle(); break;
         }
     }
+    
+    protected virtual void OnEnable()
+    {
+        // por defecto no hace nada.
+    }
+
+    protected virtual void OnDisable()
+    {
+        // por defecto no hace nada.
+    }
+
 
     #region State handlers
     protected virtual void DecideState(bool seePlayer)
@@ -121,14 +132,14 @@ public class EnemyController : MonoBehaviour
 
         float dist = Vector3.Distance(transform.position, player.position);
 
-        
+
         if (dist <= attackRange)
         {
             currentState = State.Attack;
             return;
         }
 
-        
+
         if (seePlayer)
         {
             currentState = State.Chase;
