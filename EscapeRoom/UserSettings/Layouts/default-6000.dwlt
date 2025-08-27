@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 382}
   m_MaxSize: {x: 10000, y: 10000}
@@ -360,7 +360,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 367.60004
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -405,23 +405,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86b60000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 20fbffff7cad0000acad0000c0ad0000
+      m_SelectedIDs: 54caffff
+      m_LastClickedID: -13740
+      m_ExpandedIDs: f6e3ffffeaecffff20fbffff7cad0000acad0000c4ad0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Ch18
+        m_OriginalName: Ch18
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -4890
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -1025,9 +1025,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.9962265, y: -26.069675, z: 43.083485}
+    m_Target: {x: 9.22325, y: 3.2464855, z: 8.008231}
     speed: 2
-    m_Value: {x: 1.9962265, y: -26.069675, z: 43.083485}
+    m_Value: {x: 9.22325, y: 3.2464855, z: 8.008231}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1073,13 +1073,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.3000544, y: 0.019476002, z: -0.006122888, w: -0.9537514}
+    m_Target: {x: 0.23695679, y: -0.5553431, z: 0.16883707, w: 0.7791675}
     speed: 2
-    m_Value: {x: -0.29889607, y: 0.01948245, z: -0.006099231, w: -0.9540673}
+    m_Value: {x: 0.2367348, y: -0.5562325, z: 0.16910757, w: 0.7784373}
   m_Size:
-    m_Target: 28.383717
+    m_Target: 2.338312
     speed: 2
-    m_Value: 29.721169
+    m_Value: 2.338312
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1256,6 +1256,7 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: -6307676038112928488, guid: 3f84ca341c1b1844eb99afcd13998555, type: 2}
     - {fileID: 1107000013414961306, guid: 8df5b386369d54778a922298504d1aba, type: 2}
+    - {fileID: 5132477222358781591, guid: d10b09575ce5a1e47bee024d3b713180, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.7560205
       e01: 0
@@ -1289,10 +1290,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.80830723
+      e01: 0
+      e02: 0
+      e03: -64.46506
+      e10: 0
+      e11: 0.80830723
+      e12: 0
+      e13: 168.49075
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 8df5b386369d54778a922298504d1aba, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: d10b09575ce5a1e47bee024d3b713180, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107000013414961306, guid: 8df5b386369d54778a922298504d1aba, type: 2}
+  - m_Target: {fileID: 5132477222358781591, guid: d10b09575ce5a1e47bee024d3b713180, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1352,7 +1369,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/EscapeRoom/Animations
+    - Assets/EscapeRoom/Scripts/Enemies
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1362,16 +1379,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/EscapeRoom/Animations
+  - Assets/EscapeRoom/Scripts/Enemies
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Github\Laboratorio-1-Escape-Room\EscapeRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 37.200012}
-    m_SelectedIDs: 44b60000
-    m_LastClickedID: 46660
-    m_ExpandedIDs: 000000008cb500008eb5000090b5000092b5000094b5000096b5000098b500009ab500009cb500009eb50000a0b50000a2b50000a4b50000a6b50000a8b50000aab50000acb50000aeb50000b0b50000b2b50000b4b50000b6b50000b8b50000bab50000bcb50000beb50000c0b50000c2b50000c4b50000c6b5000048b600004cb600005eb6000034b9000036b9000000ca9a3b
+    m_SelectedIDs: 4ab60000
+    m_LastClickedID: 46666
+    m_ExpandedIDs: 0000000080b5000082b5000084b5000086b5000088b500008ab500008cb500008eb5000090b5000092b5000094b5000096b5000098b500009ab500009cb500009eb50000a0b50000a2b50000a4b50000a6b50000a8b50000aab50000acb50000aeb50000b0b50000b2b50000b4b50000b6b50000b8b50000bab50000bcb50000beb50000c0b500003eb6000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1400,7 +1417,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008cb500008eb5000090b5000092b5000094b5000096b5000098b500009ab500009cb500009eb50000a0b50000a2b50000a4b50000a6b50000a8b50000aab50000acb50000aeb50000b0b50000b2b50000b4b50000b6b50000b8b50000bab50000bcb50000beb50000c0b50000c2b50000c4b50000c6b50000
+    m_ExpandedIDs: 0000000080b5000082b5000084b5000086b5000088b500008ab500008cb500008eb5000090b5000092b5000094b5000096b5000098b500009ab500009cb500009eb50000a0b50000a2b50000a4b50000a6b50000a8b50000aab50000acb50000aeb50000b0b50000b2b50000b4b50000b6b50000b8b50000bab50000bcb50000beb50000c0b50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1429,18 +1446,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000bcc00000f2d3000012c20000ccc4000020c5000054ad00002c2a0100b4b100003af100003cf1000000000000aae8000010b7000016b70000feb60000f8b6000004b700008cb60000
+    m_ExpandedInstanceIDs: c6230000bcc00000f2d3000012c20000ccc4000020c5000054ad00002c2a0100b4b100003af100003cf1000000000000aae8000010b7000016b70000feb60000f8b6000004b700008cb60000b2b60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: EnemyRobot
-      m_OriginalName: EnemyRobot
+      m_Name: EnemyHumanoid
+      m_OriginalName: EnemyHumanoid
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 50988
+      m_UserData: 56412
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1496,4 +1513,4 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1324
+  m_LastSelectedObjectID: -13740
