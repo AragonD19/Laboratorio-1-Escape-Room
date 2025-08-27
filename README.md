@@ -1,6 +1,6 @@
 # Laboratorio-2-Escape-Room
 
-## Avances principales
+## Scripts Enemigos
 
 ### `EnemyController`
 
@@ -25,15 +25,18 @@
 * Si ve al jugador: anima **Close** → **Roll** para perseguir.
 * Al llegar al jugador: anima **Open** (en el futuro causará explosión).
 
-## Cómo usar
+### `EnemyHumanoid`
 
-1. Crear un prefab de enemigo con `NavMeshAgent` + `Animator`.
-2. Asignar el script correspondiente (`EnemySpider` o `EnemyRobot`).
-3. Configurar puntos de patrulla (`patrolPoints`).
-4. Ajustar velocidades, rangos y animaciones desde el inspector.
+* Hereda de `EnemyController`.
+* Animaciones: **Idle, Walk, Run, Look, Find**.
+* Patrulla por puntos.
+* Al llegar a un waypoint: anima **Look** y realiza un escaneo de 180° con su visión.
+* Si detecta al jugador: anima **Find** y luego cambia a **Run** para perseguir.
 
 ## Futuro
 
 * Daño real al jugador en ataques.
 * Explosión del robot después de animación **Open**.
+* Posible daño en colisión del humanoide al correr contra el jugador.
+
 
